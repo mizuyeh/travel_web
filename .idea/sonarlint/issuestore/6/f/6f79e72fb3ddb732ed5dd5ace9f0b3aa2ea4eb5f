@@ -1,0 +1,24 @@
+
+[
+java:S1128"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ8Ô¡ñı.
+O
+java:S1128"2Remove this unused import 'java.util.Enumeration'.(»îÜ®8Ô¡ñı.
+P
+java:S1128"4Remove this unused import 'org.apache.log4j.Logger'.(ñè½8Ô¡ñı.
+r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùğ‡ºşÿÿÿÿ8Ù¸úòı.
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(¦é‚±8Ô¡ñı.
+l	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á×ÙJ8Øòı.
+q
+java:S1192*"TDefine a constant instead of duplicating this literal "redirect:findAll.do" 3 times.(ÀÏñï8øñúòı.
+N
+java:S1128"1Remove this unused import 'org.w3c.dom.Document'.(Á§²“8Ô¡ñı.
+S
+java:S1128"6Remove this unused import 'javax.servlet.http.Cookie'.(«Şªü8Ô¡ñı.
+H
+java:S1481)"+Remove this unused "result" local variable.(Ÿ¿¬ô8Ô¡ñı.
+L
+java:S1874;"/Remove this use of "Integer"; it is deprecated.(»›ÌÂ8ö¹¸óı.
+W
+java:S1854)":Remove this useless assignment to local variable "result".(Ÿ¿¬ô8Ô¡ñı.
+_
+java:S1128"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…8Øòı.

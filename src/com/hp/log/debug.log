@@ -1,0 +1,547 @@
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.junit4.SpringJUnit4ClassRunner >> Method: org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) ]
+DEBUG:SpringJUnit4ClassRunner constructor called with [class com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.BootstrapUtils >> Method: org.springframework.test.context.BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:99) ]
+DEBUG:Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.BootstrapUtils >> Method: org.springframework.test.context.BootstrapUtils.createBootstrapContext(BootstrapUtils.java:82) ]
+DEBUG:Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.BootstrapUtils >> Method: org.springframework.test.context.BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:135) ]
+DEBUG:Instantiating TestContextBootstrapper for test class [com.cyx.service.Mytest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDelegatingSmartContextLoader >> Method: org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) ]
+DEBUG:Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@5f341870 declaringClass = 'com.cyx.service.Mytest', classes = '{}', locations = '{classpath:applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.ActiveProfilesUtils >> Method: org.springframework.test.context.support.ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) ]
+DEBUG:Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) ]
+DEBUG:@TestExecutionListeners is not present for class [com.cyx.service.Mytest]: using defaults.
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@458c1321, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11438d26, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@34cd072c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7a1ebcd8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5faeada1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@528931cf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@ea1a8d5, org.springframework.test.context.event.EventPublishingTestExecutionListener@1563da5]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) ]
+DEBUG:Before test class: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.DependencyInjectionTestExecutionListener >> Method: org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) ]
+DEBUG:Performing dependency injection for test context [[DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = com.cyx.service.Mytest@7b69c6ba, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDelegatingSmartContextLoader >> Method: org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) ]
+DEBUG:Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractGenericContextLoader >> Method: org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) ]
+DEBUG:Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2021-02-22 18:46:54 下午 [Thread: main][ Class:org.springframework.core.env.StandardEnvironment >> Method: org.springframework.core.env.AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:252) ]
+DEBUG:Activating profiles []
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.context.annotation.ClassPathBeanDefinitionScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [D:\IdeaProjects\StudyProjects\travel_web\target\classes\com\cyx\service\impl\ProductServiceImpl.class]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) ]
+DEBUG:Loaded 15 bean definitions from class path resource [applicationContext.xml]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:634) ]
+DEBUG:Refreshing org.springframework.context.support.GenericApplicationContext@4e718207
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.mybatis.spring.mapper.ClassPathMapperScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [D:\IdeaProjects\StudyProjects\travel_web\target\classes\com\cyx\dao\ProductDao.class]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.mybatis.spring.mapper.ClassPathMapperScanner >> Method: org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:180) ]
+DEBUG:Creating MapperFactoryBean with name 'productDao' and 'com.cyx.dao.ProductDao' mapperInterface
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.mybatis.spring.mapper.ClassPathMapperScanner >> Method: org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:216) ]
+DEBUG:Enabling autowire by type for MapperFactoryBean with name 'productDao'.
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.pool.init' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.pool.minIdle' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.pool.maxActive' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'dataSource'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionFactoryBean >> Method: org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:410) ]
+DEBUG:Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:111) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:111) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:77) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: Product.class
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity/Product.class
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity/Product.class
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 P
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.cyx.entity.Product matches criteria [is assignable to Object]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionFactoryBean >> Method: org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:437) ]
+DEBUG:Scanned package: 'com.cyx.entity' for aliases
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionFactoryBean >> Method: org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529) ]
+DEBUG:Parsed mapper file: 'file [D:\IdeaProjects\StudyProjects\travel_web\target\classes\mappers\ProductDao.xml]'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'transactionManager'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'txAdvice'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [find*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'productService'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'productDao'
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:126) ]
+DEBUG:Storing ApplicationContext [1316061703] in cache under key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) ]
+DEBUG:Before test method: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = com.cyx.service.Mytest@7b69c6ba, testMethod = testFindAll@Mytest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+2021-02-22 18:46:55 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:370) ]
+DEBUG:Creating new transaction with name [com.cyx.service.impl.ProductServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2021-02-22 18:46:55 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:861) ]
+ERROR:testWhileIdle is true, validationQuery not set
+2021-02-22 18:46:56 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:694) ]
+ERROR:init datasource error, url: jdbc:mysql://localhost:3306/travel_web?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+java.sql.SQLException: Access denied for user ''@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1408)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:683)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:986)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:982)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:102)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy25.findAll(Unknown Source)
+	at com.cyx.service.Mytest.testFindAll(Mytest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+2021-02-22 18:46:56 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:712) ]
+ERROR:{dataSource-1} init error
+java.sql.SQLException: Access denied for user ''@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1408)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:683)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:986)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:982)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:102)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy25.findAll(Unknown Source)
+	at com.cyx.service.Mytest.testFindAll(Mytest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+2021-02-22 18:46:56 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:721) ]
+INFO:{dataSource-1} inited
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) ]
+DEBUG:After test method: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = com.cyx.service.Mytest@7b69c6ba, testMethod = testFindAll@Mytest, testException = org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Access denied for user ''@'localhost' (using password: YES), mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+2021-02-22 18:46:56 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) ]
+DEBUG:After test class: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:46:56 下午 [Thread: SpringContextShutdownHook][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1054) ]
+DEBUG:Closing org.springframework.context.support.GenericApplicationContext@4e718207, started on Mon Feb 22 18:46:55 CST 2021
+2021-02-22 18:46:56 下午 [Thread: SpringContextShutdownHook][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1436) ]
+INFO:{dataSource-1} closed
+2021-02-22 18:46:56 下午 [Thread: Druid-ConnectionPool-Create-207988207][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1971) ]
+ERROR:create connection error, url: jdbc:mysql://localhost:3306/travel_web?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user ''@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1408)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1464)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1969)
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.junit4.SpringJUnit4ClassRunner >> Method: org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:139) ]
+DEBUG:SpringJUnit4ClassRunner constructor called with [class com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.BootstrapUtils >> Method: org.springframework.test.context.BootstrapUtils.createCacheAwareContextLoaderDelegate(BootstrapUtils.java:99) ]
+DEBUG:Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.BootstrapUtils >> Method: org.springframework.test.context.BootstrapUtils.createBootstrapContext(BootstrapUtils.java:82) ]
+DEBUG:Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.BootstrapUtils >> Method: org.springframework.test.context.BootstrapUtils.resolveTestContextBootstrapper(BootstrapUtils.java:135) ]
+DEBUG:Instantiating TestContextBootstrapper for test class [com.cyx.service.Mytest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDelegatingSmartContextLoader >> Method: org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateProcessing(AbstractDelegatingSmartContextLoader.java:263) ]
+DEBUG:Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@5f341870 declaringClass = 'com.cyx.service.Mytest', classes = '{}', locations = '{classpath:applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.ActiveProfilesUtils >> Method: org.springframework.test.context.support.ActiveProfilesUtils.resolveActiveProfiles(ActiveProfilesUtils.java:79) ]
+DEBUG:Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:124) ]
+DEBUG:@TestExecutionListeners is not present for class [com.cyx.service.Mytest]: using defaults.
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:245) ]
+INFO:Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.DefaultTestContextBootstrapper >> Method: org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174) ]
+INFO:Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@458c1321, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11438d26, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@34cd072c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7a1ebcd8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5faeada1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@528931cf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@ea1a8d5, org.springframework.test.context.event.EventPublishingTestExecutionListener@1563da5]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) ]
+DEBUG:Before test class: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:70) ]
+DEBUG:Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.annotation.ProfileValueUtils >> Method: org.springframework.test.annotation.ProfileValueUtils.retrieveProfileValueSource(ProfileValueUtils.java:83) ]
+DEBUG:Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cyx.service.Mytest]
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.DependencyInjectionTestExecutionListener >> Method: org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:81) ]
+DEBUG:Performing dependency injection for test context [[DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = com.cyx.service.Mytest@7b69c6ba, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDelegatingSmartContextLoader >> Method: org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:273) ]
+DEBUG:Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractGenericContextLoader >> Method: org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:107) ]
+DEBUG:Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2021-02-22 18:48:40 下午 [Thread: main][ Class:org.springframework.core.env.StandardEnvironment >> Method: org.springframework.core.env.AbstractEnvironment.setActiveProfiles(AbstractEnvironment.java:252) ]
+DEBUG:Activating profiles []
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.context.annotation.ClassPathBeanDefinitionScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [D:\IdeaProjects\StudyProjects\travel_web\target\classes\com\cyx\service\impl\ProductServiceImpl.class]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) ]
+DEBUG:Loaded 15 bean definitions from class path resource [applicationContext.xml]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:634) ]
+DEBUG:Refreshing org.springframework.context.support.GenericApplicationContext@4e718207
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.mybatis.spring.mapper.ClassPathMapperScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [D:\IdeaProjects\StudyProjects\travel_web\target\classes\com\cyx\dao\ProductDao.class]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.mybatis.spring.mapper.ClassPathMapperScanner >> Method: org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:180) ]
+DEBUG:Creating MapperFactoryBean with name 'productDao' and 'com.cyx.dao.ProductDao' mapperInterface
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.mybatis.spring.mapper.ClassPathMapperScanner >> Method: org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:216) ]
+DEBUG:Enabling autowire by type for MapperFactoryBean with name 'productDao'.
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.pool.init' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.pool.minIdle' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.core.env.PropertySourcesPropertyResolver >> Method: org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) ]
+DEBUG:Found key 'jdbc.pool.maxActive' in PropertySource 'localProperties' with value of type String
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'dataSource'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionFactoryBean >> Method: org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:410) ]
+DEBUG:Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:111) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:111) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:77) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: Product.class
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity/Product.class
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/D:/IdeaProjects/StudyProjects/travel_web/target/classes/com/cyx/entity/Product.class
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 P
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.cyx.entity.Product matches criteria [is assignable to Object]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionFactoryBean >> Method: org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:437) ]
+DEBUG:Scanned package: 'com.cyx.entity' for aliases
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionFactoryBean >> Method: org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529) ]
+DEBUG:Parsed mapper file: 'file [D:\IdeaProjects\StudyProjects\travel_web\target\classes\mappers\ProductDao.xml]'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'transactionManager'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'txAdvice'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [find*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource >> Method: org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource.addTransactionalMethod(NameMatchTransactionAttributeSource.java:102) ]
+DEBUG:Adding transactional method [*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'productService'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'productDao'
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:126) ]
+DEBUG:Storing ApplicationContext [1316061703] in cache under key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) ]
+DEBUG:Before test method: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = com.cyx.service.Mytest@7b69c6ba, testMethod = testFindAll@Mytest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+2021-02-22 18:48:41 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:370) ]
+DEBUG:Creating new transaction with name [com.cyx.service.impl.ProductServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2021-02-22 18:48:41 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.validationQueryCheck(DruidDataSource.java:861) ]
+ERROR:testWhileIdle is true, validationQuery not set
+2021-02-22 18:48:42 下午 [Thread: main][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:721) ]
+INFO:{dataSource-1} inited
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:267) ]
+DEBUG:Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87] for JDBC transaction
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceUtils >> Method: org.springframework.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction(DataSourceUtils.java:186) ]
+DEBUG:Setting JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87] read-only
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:285) ]
+DEBUG:Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87] to manual commit
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionUtils >> Method: org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:97) ]
+DEBUG:Creating a new SqlSession
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionUtils >> Method: org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:128) ]
+DEBUG:Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae76500]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.transaction.SpringManagedTransaction >> Method: org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) ]
+DEBUG:JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87] will be managed by Spring
+2021-02-22 18:48:42 下午 [Thread: main][ Class:com.cyx.dao.ProductDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from product 
+2021-02-22 18:48:42 下午 [Thread: main][ Class:com.cyx.dao.ProductDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 
+2021-02-22 18:48:42 下午 [Thread: main][ Class:com.cyx.dao.ProductDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 3
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionUtils >> Method: org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:186) ]
+DEBUG:Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae76500]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionUtils >> Method: org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:284) ]
+DEBUG:Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae76500]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionUtils >> Method: org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:310) ]
+DEBUG:Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae76500]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.mybatis.spring.SqlSessionUtils >> Method: org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:315) ]
+DEBUG:Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ae76500]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:740) ]
+DEBUG:Initiating transaction commit
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:330) ]
+DEBUG:Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceUtils >> Method: org.springframework.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction(DataSourceUtils.java:250) ]
+DEBUG:Resetting read-only flag of JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.jdbc.datasource.DataSourceTransactionManager >> Method: org.springframework.jdbc.datasource.DataSourceTransactionManager.doCleanupAfterCompletion(DataSourceTransactionManager.java:389) ]
+DEBUG:Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@791cbf87] after transaction
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestMethod(AbstractDirtiesContextTestExecutionListener.java:108) ]
+DEBUG:After test method: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = com.cyx.service.Mytest@7b69c6ba, testMethod = testFindAll@Mytest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate >> Method: org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:137) ]
+DEBUG:Retrieved ApplicationContext [1316061703] from cache with key [[MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.cache >> Method: org.springframework.test.context.cache.DefaultContextCache.logStatistics(DefaultContextCache.java:290) ]
+DEBUG:Spring test ApplicationContext cache statistics: [DefaultContextCache@6ccdb29f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+2021-02-22 18:48:42 下午 [Thread: main][ Class:org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener >> Method: org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener.beforeOrAfterTestClass(AbstractDirtiesContextTestExecutionListener.java:143) ]
+DEBUG:After test class: context [DefaultTestContext@7a9273a8 testClass = Mytest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26a7b76d testClass = Mytest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+2021-02-22 18:48:42 下午 [Thread: SpringContextShutdownHook][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1054) ]
+DEBUG:Closing org.springframework.context.support.GenericApplicationContext@4e718207, started on Mon Feb 22 18:48:41 CST 2021
+2021-02-22 18:48:42 下午 [Thread: SpringContextShutdownHook][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1436) ]
+INFO:{dataSource-1} closed

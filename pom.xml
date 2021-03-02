@@ -23,6 +23,7 @@
     <mysql.driver.version>8.0.22</mysql.driver.version>
     <slf4j.version>1.7.7</slf4j.version>
     <druid.version>1.0.18</druid.version>
+    <webserver.port>8081</webserver.port>
     <tomcat.version>2.2</tomcat.version>
   </properties>
 
@@ -75,13 +76,6 @@
       <artifactId>spring-jdbc</artifactId>
       <version>${spring.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-core</artifactId>
-      <version>5.3.3.RELEASE</version>
-    </dependency>
-
 
     <!--aop-->
     <dependency>
@@ -151,26 +145,6 @@
       <version>2.1</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-web</artifactId>
-      <version>${spring.security.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-config</artifactId>
-      <version>${spring.security.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-core</artifactId>
-      <version>${spring.security.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-taglibs</artifactId>
-      <version>${spring.security.version}</version>
-    </dependency>
 
     <!-- LOGGING begin -->
     <dependency>
@@ -196,12 +170,6 @@
       <version>${slf4j.version}</version>
     </dependency>
 
-    <dependency>
-      <groupId>com.github.pagehelper</groupId>
-      <artifactId>pagehelper</artifactId>
-      <version>5.1.2</version>
-    </dependency>
-
     <!-- TEST begin -->
     <dependency>
       <groupId>junit</groupId>
@@ -213,6 +181,13 @@
       <artifactId>spring-test</artifactId>
       <version>${spring.version}</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
+    <dependency>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper</artifactId>
+      <version>5.2.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>

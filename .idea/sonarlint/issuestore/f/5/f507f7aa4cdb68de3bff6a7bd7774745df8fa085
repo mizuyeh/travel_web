@@ -1,0 +1,11 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(”…šá8è³ ş.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(´çı°ÿÿÿÿÿ8»”ş.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ç½õ™8±ä¸Šÿ.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¢çîæ8œÖŠÿ.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(öÿ…íıÿÿÿÿ8–‘‚•ş.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‚âºìüÿÿÿÿ8´¶¥ş.
+^
+java:S1128"ARemove this unused import 'org.apache.ibatis.annotations.Select'.(²ß˜8×³×Šÿ.
+X
+java:S1128"6Remove this unused import 'org.aspectj.weaver.ast.Or'.(®ô²Îûÿÿÿÿ8ÇÎø”ş.

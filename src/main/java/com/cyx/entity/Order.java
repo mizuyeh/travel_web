@@ -21,6 +21,8 @@ public class Order implements Serializable {
     private Product product;
     private List<Traveler> travelers;
     private Member member;
+    private String productId;
+    private String memberId;
     private Integer payType;
     private String payTypeStr;
     private String orderDesc;
@@ -113,6 +115,22 @@ public class Order implements Serializable {
         this.member = member;
     }
 
+    public String getProductId() {
+        return productId;
+    }
+
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
+
+    public String getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
+
     public Integer getPayType() {
         return payType;
     }
@@ -122,6 +140,13 @@ public class Order implements Serializable {
     }
 
     public String getPayTypeStr() {
+        if(payType == 0) {
+            payTypeStr = "支付宝";
+        } else if(payType == 1) {
+            payTypeStr = "微信";
+        } else if(payType == 2){
+            payTypeStr = "其他";
+        }
         return payTypeStr;
     }
 
@@ -150,6 +175,8 @@ public class Order implements Serializable {
                 ", product=" + product +
                 ", travelers=" + travelers +
                 ", member=" + member +
+                ", productId='" + productId + '\'' +
+                ", memberId='" + memberId + '\'' +
                 ", payType=" + payType +
                 ", payTypeStr='" + payTypeStr + '\'' +
                 ", orderDesc='" + orderDesc + '\'' +

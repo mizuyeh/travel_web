@@ -117,7 +117,7 @@
 									<i class="fa fa-calendar"></i>
 								</div>
 								<input type="text" class="form-control pull-right"
-									id="datepicker-a3" name="departureTime">
+									id="datepicker-a3" placeholder="出发时间" name="departureTime">
 							</div>
 						</div>
 
@@ -157,8 +157,8 @@
 					<button type="button" class="btn bg-default"
 						onclick="history.back(-1);">返回</button>
 				</div>
-				<!--工具栏/--> </section>
-				<!-- 正文区域 /-->
+				</section>
+
 			</form>
 		</div>
 		<!-- 内容区域 /-->

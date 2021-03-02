@@ -2,6 +2,7 @@ package com.cyx.dao;
 
 import com.cyx.entity.Product;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -12,13 +13,22 @@ import java.util.List;
 public interface ProductDao {
     /**
      * 查询所有账户
+     *
      * @Param []
      * @Return java.util.List<com.cyx.entity.Product>
      */
     List<Product> findAll() throws Exception;
 
+    @Select("select * from product where id = #{id}")
+    Product findById(String id) throws Exception;
+
+    //通过编号查找id
+    @Select("select id from product where productNum = #{productNum}")
+    String findId(String productNum) throws Exception;
+
     /**
      * 保存产品
+     *
      * @Param [product]
      * @Return int
      */
@@ -26,6 +36,7 @@ public interface ProductDao {
 
     /**
      * 根据产品编号删除产品
+     *
      * @Param [product]
      * @Return int
      */
@@ -33,6 +44,7 @@ public interface ProductDao {
 
     /**
      * 更新指定编号产品的状态
+     *
      * @Param [productNum, status]
      * @Return int
      */

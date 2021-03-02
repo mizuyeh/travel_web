@@ -44,6 +44,21 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="typeAliasesPackage" value="com.cyx.entity"/>
         <property name="mapperLocations" value="classpath:/mappers/**/*.xml"/>
+
+        <!--配置拦截器插件-->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <!--使用下面的方式配置参数，一行配置一个 -->
+                        <props>
+                            <prop key="helperDialect">mysql</prop>
+                            <prop key="reasonable">true</prop>
+                        </props>
+                    </property>
+                </bean>
+            </array>
+        </property>
     </bean>
 
     <!--配置扫描dao接口-->

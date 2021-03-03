@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cyx.dao.OrderDao">
+    <resultMap id="orderResultMap" type="com.cyx.entity.Order">
+        <id property="id" column="id"/>
+        <result property="orderNum" column="orderNum"/>
+        <result property="orderTime" column="orderTime"/>
+        <result property="orderStatus" column="orderStatus"/>
+        <result property="travelerCount" column="travelerCount"/>
+        <result property="payType" column="payType"/>
+        <result property="orderDesc" column="orderDesc"/>
+        <association property="product" column="productId" select="com.cyx.dao.ProductDao.findById" javaType="product"/>
+    </resultMap>
+
+    <resultMap id="orderByIdResultMap" type="com.cyx.entity.Order">
+        <id property="id" column="id"/>
+        <result property="orderNum" column="orderNum"/>
+        <result property="orderTime" column="orderTime"/>
+        <result property="orderStatus" column="orderStatus"/>
+        <result property="travelerCount" column="travelerCount"/>
+        <result property="payType" column="payType"/>
+        <result property="orderDesc" column="orderDesc"/>
+        <association property="product" column="productId" select="com.cyx.dao.ProductDao.findById" javaType="product"/>
+        <association property="member" column="memberId" select="com.cyx.dao.MemberDao.findById" javaType="member"/>
+        <collection property="travelers" column="id" select="com.cyx.dao.TravelerDao.findById" javaType="java.util.List"/>
+    </resultMap>
+
+    <select id="findAll" resultMap="orderResultMap">
+        select * from `order`
+    </select>
+
+    <select id="findById" parameterType="String" resultMap="orderByIdResultMap">
+        select * from `order` where id = #{id}
+    </select>
+
+    <select id="findId" resultType="java.lang.String">
+        select id from `order` where orderNum = #{orderNum}
+    </select>
+
+    <delete id="delete" parameterType="String">
+        delete from `order` where orderNum = #{orderNum};
+    </delete>
+
+    <update id="updateForeignKeyCheck" parameterType="int">
+        set foreign_key_checks = #{status};
+    </update>
+
+    <insert id="save" parameterType="order">
+        insert into `order`(orderNum, orderTime, travelerCount, orderDesc, payType, orderStatus, productId, memberId)
+         values (#{orderNum}, #{orderTime}, #{travelerCount}, #{orderDesc}, #{payType}, #{orderStatus}, #{productId}, #{memberId})
+    </insert>
+</mapper>

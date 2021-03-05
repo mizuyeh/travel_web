@@ -1,0 +1,11 @@
+
+_
+java:S1128	"=Remove this unused import 'org.apache.shiro.util.ByteSource'.(€Ñ§úþÿÿÿÿ8¬û…¾ÿ.
+r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç€Âøúÿÿÿÿ8ÇèþÛÿ.
+l
+java:S1128"JRemove this unused import 'org.apache.shiro.crypto.RandomNumberGenerator'.(™œô¯þÿÿÿÿ8¬û…¾ÿ.
+^
+java:S15963"<Replace "Collections.EMPTY_SET" by "Collections.emptySet()".(É‚‘­øÿÿÿÿ8¢…½Üÿ.
+r	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç€Âøúÿÿÿÿ8ò¹Üÿ.
+^
+java:S1596@"<Replace "Collections.EMPTY_SET" by "Collections.emptySet()".(É‚‘­øÿÿÿÿ8à³½Üÿ.

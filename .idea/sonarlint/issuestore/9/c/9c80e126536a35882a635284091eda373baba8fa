@@ -1,0 +1,9 @@
+
+j	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¥°à8¸¹ÿ³ÿ.
+o	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç®ÕÓúÿÿÿÿ8¸¹ÿ³ÿ.
+t	java:S116"SRename this field "role_ids" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÇƒåþÿÿÿÿ8Äåñ³ÿ.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ø–¾Þÿ.
+]
+java:S1128"ARemove this unused import 'org.springframework.util.StringUtils'.(Ðôÿ8ù‹°Þÿ.
+m	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¥°à8¸¹ÿ³ÿ.

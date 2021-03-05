@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--凭证校验器-->
+    <bean id="credentialsMatcher" class="com.cyx.credentials.RetryLimitHashedCredentialsMatcher">
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="2"/>
+        <property name="storedCredentialsHexEncoded" value="true"/>
+    </bean>
+    <!-- 配置权限管理器 -->
+    <bean id="customerRealm" class="com.cyx.credentials.CustomerRealm">
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
+        <!--开启全局缓存-->
+        <property name="cachingEnabled" value="true"/>
+        <!--开启授权缓存-->
+        <property name="authorizationCachingEnabled" value="true"/>
+        <!--开启认证缓存-->
+        <property name="authenticationCachingEnabled" value="true"/>
+    </bean>
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!-- 我们自定义的realm -->
+        <property name="realm" ref="customerRealm"/>
+        <!-- 缓存管理器 -->
+        <property name="cacheManager" ref="cacheManager"/>
+    </bean>
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!-- 权限管理器 -->
+        <property name="securityManager" ref="securityManager"/>
+        <!-- 登录地址 -->
+        <property name="loginUrl" value="/login.jsp"/>
+        <!-- 登录后跳转到业务页面 -->
+        <property name="successUrl" value="/index.jsp"/>
+        <!-- 错误页面 -->
+        <property name="unauthorizedUrl" value="/pages/login-fail.jsp"/>
+        <!-- 权限配置 -->
+        <property name="filterChainDefinitions">
+            <value>
+                <!-- anon无权限访问请求，此处是登录页面和登录请求 -->
+                /register.jsp = anon
+                /user/register.do = anon
+                /user/login.do = anon
+                /css/**=anon
+                /img/**=anon
+                /plugins/**=anon
+                <!-- 需要权限为add的用户才能访问此请求-->
+                <!--/user=perms[user:add]-->
+                <!-- 需要管理员角色才能访问此页面 -->
+                /user/add=roles[admin]
+                <!--拦截非静态资源的所有请求-->
+                /** = authc
+            </value>
+        </property>
+    </bean>
+
+    <!--shiro缓存-->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManager" ref="ehCacheManager"/>
+    </bean>
+    <bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"/>
+
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+</beans>

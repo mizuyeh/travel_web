@@ -7,6 +7,7 @@ import com.cyx.entity.Traveler;
 import com.cyx.service.OrderService;
 import com.cyx.service.ProductService;
 import com.github.pagehelper.PageInfo;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.aspectj.weaver.ast.Or;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,6 +35,7 @@ public class OrderController {
     @Autowired
     private ProductService productService;
 
+    @RequiresPermissions("order:view")
     @RequestMapping("/findAll.do")
     public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1") Integer page,
                                 @RequestParam(name = "size", required = true, defaultValue = "4") Integer size) throws Exception {
@@ -46,6 +48,7 @@ public class OrderController {
         return view;
     }
 
+    @RequiresPermissions("order:delete")
     @RequestMapping("/delete.do")
     public String delete(String check_val) throws Exception {
         List<String> orderNums = Arrays.asList(check_val.split(","));
@@ -61,6 +64,7 @@ public class OrderController {
         return "redirect:findAll.do";
     }
 
+    @RequiresPermissions("order:view")
     @RequestMapping("/findById.do")
     public ModelAndView findById(String id) throws Exception {
         ModelAndView view = new ModelAndView();
@@ -75,6 +79,7 @@ public class OrderController {
      * @Param [orderAdd, travelerName, sex, phoneNum, credentialsType, credentialsNum, travelerType]
      * @Return java.lang.String
      */
+    @RequiresPermissions("order:create")
     @RequestMapping("/save.do")
     public String save(OrderAdd orderAdd, String[] travelerName, String[] sex, String[] phoneNum,
                        Integer[] credentialsType, String[] credentialsNum, Integer[] travelerType) throws Exception {

@@ -67,14 +67,13 @@
     </bean>
 
     <!--配置事务-->
-
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
     <!-- 配置 Annotation 驱动，扫描@Transactional注解的类定义事务  -->
-    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
-   <!-- &lt;!&ndash;配置通知&ndash;&gt;
+<!--    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>-->
+   <!-- &lt;!&ndash;配置通知-->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="save*" propagation="REQUIRED"/>
@@ -85,14 +84,17 @@
         </tx:attributes>
     </tx:advice>
 
-    &lt;!&ndash;配置事务织入点&ndash;&gt;
+    <!--配置事务织入点-->
     <aop:config>
         <aop:pointcut id="pointcut" expression="execution(* com.cyx.service.impl.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"/>
-    </aop:config>-->
+    </aop:config>
 
     <!--开启自动扫描，但不扫描Controller-->
     <context:component-scan base-package="com.cyx">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
+
+
+    <import resource="classpath:shiro-config.xml"/>
 </beans>

@@ -5,6 +5,7 @@ import com.cyx.dao.TravelerDao;
 import com.cyx.entity.Order;
 import com.cyx.entity.Product;
 import com.cyx.entity.Traveler;
+import com.cyx.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @Description
@@ -33,6 +37,9 @@ public class Mytest {
 
     @Autowired
     private OrderTravelerDao orderTravelerDao;
+
+    @Autowired
+    private UserService userService;
 
     @Test
     public void testFindAll() throws Exception {
@@ -73,5 +80,33 @@ public class Mytest {
         orderTravelerDao.save("415615257b1611eb9a9e005056c00001", "4150737a7b1611eb9a9e005056c00001");
         System.out.println("-------------TAG: " +
                 orderTravelerDao.save("415615257b1611eb9a9e005056c00001", "4153314f7b1611eb9a9e005056c00001"));
+    }
+
+    @Test
+    public void testFindPermissions() {
+        Set<String> roles = userService.findRoles("admin");
+        Iterator<String> iterator = roles.iterator();
+        while(iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        System.out.println("------------------------------permission");
+        Set<String> permissions = userService.findPermissions("xiaochen1");
+        Iterator<String> iterator1 = permissions.iterator();
+        while(iterator1.hasNext()) {
+            System.out.println(iterator1.next());
+        }
+    }
+
+    @Test
+    public void testToArray() {
+        List<Long> ids = new ArrayList<>();
+        ids.add(1L);
+        ids.add(2L);
+        ids.add(3L);
+        Long[] longs = ids.toArray(new Long[0]);
+        for (Long aLong : longs) {
+            System.out.println(aLong);
+        }
     }
 }

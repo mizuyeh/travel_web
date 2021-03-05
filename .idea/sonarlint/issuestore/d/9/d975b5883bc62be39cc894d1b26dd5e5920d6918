@@ -1,13 +1,17 @@
 
 I
-java:S2699."-Add at least one assertion to this test case.(ìî8†¹Ö–ş.
+java:S26995"-Add at least one assertion to this test case.(ìî8†¹Ö–ş.
 O
-java:S2699&"-Add at least one assertion to this test case.(ÖÉ—ÿÿÿÿÿ8ìï½Êü.
-£
-java:S3577"…Rename class "Mytest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(¡ÃÙ¶8ìï½Êü.
+java:S2699-"-Add at least one assertion to this test case.(ÖÉ—ÿÿÿÿÿ8ìï½Êü.
 O
-java:S2699@"-Add at least one assertion to this test case.(ëëÒéüÿÿÿÿ8Ï¬Üş.
+java:S2699G"-Add at least one assertion to this test case.(ëëÒéüÿÿÿÿ8Ï¬Üş.
 J
-java:S2699H"-Add at least one assertion to this test case.(ÑÂ£Õ8ˆ´±‹ÿ.
+java:S2699O"-Add at least one assertion to this test case.(ÑÂ£Õ8ˆ´±‹ÿ.
 O
-java:S26996"-Add at least one assertion to this test case.(Ü®ˆòıÿÿÿÿ8Ô‹¡ş.
+java:S2699V"-Add at least one assertion to this test case.(ºş×Éıÿÿÿÿ8ğÂŞÛÿ.
+O
+java:S2699="-Add at least one assertion to this test case.(Ü®ˆòıÿÿÿÿ8Ô‹¡ş.
+£
+java:S3577"…Rename class "Mytest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(¡ÃÙ¶8ìï½Êü.
+J
+java:S2699f"-Add at least one assertion to this test case.(§Ë Ü8ß¬šÜÿ.

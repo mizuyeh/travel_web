@@ -1,11 +1,11 @@
 
-W
-java:S1118":Add a private constructor to hide the implicit public one.(Ÿÿ¸Ü8õ ºÄı.
-W
-java:S1191"5Use classes from the Java API instead of Sun classes.(î»˜ûÿÿÿÿ8§û²Äı.
 s
 java:S1128"QRemove this unused import 'org.springframework.core.convert.converter.Converter'.(’µ´×ÿÿÿÿÿ8í¹«Äı.
-€
-java:S1128"^Remove this unused import 'com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion'.(î»˜ûÿÿÿÿ8§û²Äı.
 k
 java:S1128"IRemove this unused import 'com.sun.xml.internal.rngom.digested.DPattern'.(èÑé®üÿÿÿÿ8™î¶Äı.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(î»˜ûÿÿÿÿ8§û²Äı.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ÿÿ¸Ü8õ ºÄı.
+€
+java:S1128"^Remove this unused import 'com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion'.(î»˜ûÿÿÿÿ8§û²Äı.

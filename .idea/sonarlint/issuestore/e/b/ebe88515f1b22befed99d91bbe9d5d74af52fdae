@@ -1,0 +1,5 @@
+
+j	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸéÖ8¿÷÷Şÿ.
+m	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Êæ™8¿÷÷Şÿ.
+j	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Êæ™8¿÷÷Şÿ.
+s	java:S116"WRename this field "resource_ids" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶í«º8á¿€ßÿ.

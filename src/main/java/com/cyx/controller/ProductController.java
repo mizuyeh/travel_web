@@ -2,6 +2,7 @@ package com.cyx.controller;
 
 import com.cyx.entity.Product;
 import com.cyx.service.ProductService;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    @RequiresPermissions("product:view")
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
         ModelAndView modelAndView = new ModelAndView();
@@ -30,12 +32,14 @@ public class ProductController {
         return modelAndView;
     }
 
+    @RequiresPermissions("product:create")
     @RequestMapping("/save.do")
     public String save(Product product) throws Exception {
         int result = productService.saveProduct(product);
         return "redirect:findAll.do";
     }
 
+    @RequiresPermissions("product:delete")
     @RequestMapping("/delete.do")
     public String delete(String check_val) throws Exception {
         List<String> productNums = Arrays.asList(check_val.split(","));
@@ -46,6 +50,7 @@ public class ProductController {
         return "redirect:findAll.do";
     }
 
+    @RequiresPermissions("product:update")
     @RequestMapping("/updateStatus.do")
     public String updateStatus(String check_val, String status) throws Exception {
         List<String> productNums = Arrays.asList(check_val.split(","));

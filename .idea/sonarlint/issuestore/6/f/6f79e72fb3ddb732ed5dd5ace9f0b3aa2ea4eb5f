@@ -1,12 +1,12 @@
 
-W
-java:S1854#":Remove this useless assignment to local variable "result".(Ÿ¿¬ô8Ô¡ñı.
-U	java:S106-"9Replace this use of System.out or System.err by a logger.(¦é‚±8Ô¡ñı.
 L
-java:S18745"/Remove this use of "Integer"; it is deprecated.(»›ÌÂ8ö¹¸óı.
+java:S1874:"/Remove this use of "Integer"; it is deprecated.(»›ÌÂ8ö¹¸óı.
 q
-java:S1192$"TDefine a constant instead of duplicating this literal "redirect:findAll.do" 3 times.(ÀÏñï8øñúòı.
-l	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á×ÙJ8Øòı.
-r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùğ‡ºşÿÿÿÿ8Ù¸úòı.
+java:S1192'"TDefine a constant instead of duplicating this literal "redirect:findAll.do" 3 times.(ÀÏñï8øñúòı.
+W
+java:S1854&":Remove this useless assignment to local variable "result".(Ÿ¿¬ô8Ô¡ñı.
+r	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùğ‡ºşÿÿÿÿ8Ù¸úòı.
 H
-java:S1481#"+Remove this unused "result" local variable.(Ÿ¿¬ô8Ô¡ñı.
+java:S1481&"+Remove this unused "result" local variable.(Ÿ¿¬ô8Ô¡ñı.
+l	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á×ÙJ8Øòı.
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(¦é‚±8Ô¡ñı.

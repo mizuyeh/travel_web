@@ -1,0 +1,9 @@
+
+L
+java:S5411)"*Use the primitive boolean expression here.(Б¦еЌюяяяя8УЫцЯя.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(щЧжЇ8УЫцЯя.
+J
+java:S1125)"(Remove the literal "true" boolean value.(Б¦еЌюяяяя8УЫцЯя.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(­Ї¦бяяяяя8УЫцЯя.
+›
+java:S1130 "yRemove the declaration of thrown exception 'org.apache.shiro.authc.AuthenticationException' which is a runtime exception.(ЎпЛ»щяяяя8УЫцЯя.

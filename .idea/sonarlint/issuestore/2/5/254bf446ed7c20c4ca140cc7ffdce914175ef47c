@@ -1,4 +1,4 @@
 
-T	java:S106%"9Replace this use of System.out or System.err by a logger.(”çï8Ù›ü½ÿ.
 l
 java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8ëç¿»ÿ.
+T	java:S106%"9Replace this use of System.out or System.err by a logger.(”çï8Ù›ü½ÿ.

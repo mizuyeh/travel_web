@@ -1,14 +1,18 @@
 
+b	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(ØÚàÊ8Šªêµ€/
 R
 java:S1191"5Use classes from the Java API instead of Sun classes.(€üÕ8Ûƒ»ş.
-_
-java:S1128"BRemove this unused import 'sun.rmi.server.InactiveGroupException'.(€üÕ8Ûƒ»ş.
-U	java:S106^"9Replace this use of System.out or System.err by a logger.(€¯©8”ñ¨ğş.
-X
-java:S1128"6Remove this unused import 'org.aspectj.weaver.ast.Or'.(®ô²Îûÿÿÿÿ8Ñ…ñïş.
-U
-java:S1128"3Remove this unused import 'com.cyx.entity.Product'.(íî¹‰ÿÿÿÿÿ8ó˜ğïş.
-l	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á×ÙJ8ä›Å¹ş.
 s
 java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.ResponseBody'.(•¶¶êøÿÿÿÿ8ÕéèŠÿ.
 Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Ê†š°øÿÿÿÿ8ä›Å¹ş.
+b	java:S112U"FDefine and throw a dedicated exception instead of using a generic one.(¿”ÏÕ8Šªêµ€/
+X
+java:S1128"6Remove this unused import 'org.aspectj.weaver.ast.Or'.(®ô²Îûÿÿÿÿ8Ñ…ñïş.
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(€¯©8”ñ¨ğş.
+g	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(»İñ°ûÿÿÿÿ8Šªêµ€/
+l	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á×ÙJ8ä›Å¹ş.
+_
+java:S1128"BRemove this unused import 'sun.rmi.server.InactiveGroupException'.(€üÕ8Ûƒ»ş.
+a	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(á×ÙJ8Šªêµ€/
+U
+java:S1128"3Remove this unused import 'com.cyx.entity.Product'.(íî¹‰ÿÿÿÿÿ8ó˜ğïş.

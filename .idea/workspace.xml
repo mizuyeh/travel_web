@@ -6,14 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd34bdc-fdbf-4d86-a9e3-1c1adb8780ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/254bf446ed7c20c4ca140cc7ffdce914175ef47c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/254bf446ed7c20c4ca140cc7ffdce914175ef47c" afterDir="false" />
+    <list default="true" id="0bd34bdc-fdbf-4d86-a9e3-1c1adb8780ec" name="Default Changelist" comment="添加maven-surefire-plugin插件，解决maven打包错误问题">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42fa0257e8192d59a56b0465576f781d24f84acf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42fa0257e8192d59a56b0465576f781d24f84acf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b16dad31d2f7c6ded508e9e000ca9c502baf16bc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b16dad31d2f7c6ded508e9e000ca9c502baf16bc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca5c2147d658157d89ef394235d21e026aed55f7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca5c2147d658157d89ef394235d21e026aed55f7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb52be7f840d36e5abf39b3094a915f1c5082c29" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb52be7f840d36e5abf39b3094a915f1c5082c29" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffa092e55cb3a35c0aaf9fe98f496bef16e3ca77" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffa092e55cb3a35c0aaf9fe98f496bef16e3ca77" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -275,12 +276,26 @@
       <workItem from="1614905353978" duration="23029000" />
       <workItem from="1615020580355" duration="43000" />
       <workItem from="1615022890581" duration="1708000" />
-      <workItem from="1615361964942" duration="248000" />
+      <workItem from="1615361964942" duration="842000" />
+      <workItem from="1615383057870" duration="320000" />
     </task>
+    <task id="LOCAL-00001" summary="更新到gitlab">
+      <created>1615362236012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615362236012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新到gitlab" />
+    <MESSAGE value="添加maven-surefire-plugin插件，解决maven打包错误问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加maven-surefire-plugin插件，解决maven打包错误问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Auto_Import" timestamp="1614748765256">
@@ -319,6 +334,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="396" y="42" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1614257662943" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1615383361456">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615383361456" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1614595962984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -327,22 +346,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1615024881619" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1614940800879">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1615383365709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614940800879" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1614940800879">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615383365709" />
+    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1615383365708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614940800879" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1614940800879">
+    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615383365708" />
+    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1615383365708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614940800879" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1614940800879">
+    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615383365708" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1615383365709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614940800879" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615383365709" />
     <state width="1237" height="182" key="GridCell.Tab.1.bottom" timestamp="1614940800848">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -395,6 +414,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1614689341181" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1615362444333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615362444333" />
     <state x="182" y="76" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614441335866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
